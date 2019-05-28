@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Navbar, Landing } from './components/layout';
+import { Navbar, Landing, Alert } from './components/layout';
 import { Register, Login } from './components/auth';
 //Redux
 import { Provider } from 'react-redux';
@@ -15,6 +15,7 @@ const App = () => (
         <Navbar />
         <Route exact path="/" component={Landing} />
         <section className="container">
+          <Alert />
           <Switch>
             <Route exact path="/register" component={Register} />
             <Route exact path="/login" component={Login} />
