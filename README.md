@@ -1,6 +1,6 @@
 # DevConnector
 
-DevConnector is a full-stack application with the following features:
+DevConnector is a full-stack web application with the following features:
 - Complete authentication flow using JWT tokens with validation and alerts
 - Profiles (Create and View) with form validation and alerts
   - Education
@@ -21,3 +21,4 @@ DevTools:
 - VSCode
 - Google Chrome (React DevTools + Redux DevTools extensions)
 - Postman (for API endpoint testing)
+- Heroku CLI for deployment
